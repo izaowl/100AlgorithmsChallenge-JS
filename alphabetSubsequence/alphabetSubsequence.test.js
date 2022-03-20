@@ -21,4 +21,15 @@ describe(alphabetSubsequence.name, () => {
         // assert
         expect(response).toBe(true);
     });
+    
+    it('Test 2', () => {
+        // arrange
+        const data = 'zab';
+
+        // act
+        const response = alphabetSubsequence(data);
+
+        // assert
+        expect(response).toBe(true);
+    });
 });
