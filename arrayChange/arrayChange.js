@@ -12,8 +12,8 @@ function arrayChange(inputArray) {
     }
     return moves;
 }
-inputArray1 = [5,5,4];
-inputArray2 = [5,5,4,0];
-console.log(arrayChange(inputArray1));
-console.log(arrayChange(inputArray2));
+// inputArray1 = [5,5,4];
+// inputArray2 = [1,8,6];
+// console.log(arrayChange(inputArray1));
+// console.log(arrayChange(inputArray2));
 module.exports = arrayChange
